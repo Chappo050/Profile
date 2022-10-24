@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <div className="flex flex-col text-center justify-center items-center pt-40   ">
+    <div id="projects" className="flex flex-col text-center justify-center items-center pt-40   ">
       <p className="text-4xl md:text-6xl font-light  mb-10 underline">
         PROJECTS
       </p>
@@ -138,13 +138,13 @@ const Projects = () => {
 
           <p className="">
             <a
-              href="#"
+              href="/"
               className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
             >
               Website
             </a>
             <a
-              href="https://github.com/Chappo050/Finder-firebase"
+              href="https://github.com/Chappo050/Profile"
               className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
             >
               Github
