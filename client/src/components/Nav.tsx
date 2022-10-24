@@ -26,7 +26,7 @@ const Nav = () => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/#home");
+              window.location.href = window.location.origin + "/#home";
             }}
             className="bg-white rounded-full md:py-1 hover:bg-slate-200  "
           >
@@ -35,7 +35,7 @@ const Nav = () => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/#projects");
+              window.location.href = window.location.origin + "/#projects";
             }}
             className="bg-white rounded-full md:py-1 hover:bg-slate-200 "
           >
@@ -44,7 +44,7 @@ const Nav = () => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/#education");
+              window.location.href = window.location.origin + "/#education";
             }}
             className="bg-white rounded-full md:py-1 hover:bg-slate-200  "
           >
@@ -53,7 +53,7 @@ const Nav = () => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              window.location.replace("/#about");
+              window.location.href = window.location.origin + "/#about";
             }}
             className="bg-white rounded-full md:py-1 hover:bg-slate-200 " 
           >
