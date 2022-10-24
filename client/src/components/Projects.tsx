@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <div id="projects" className="flex flex-col text-center justify-center items-center pt-40   ">
+    <div id="projects" className="flex flex-col text-center justify-center items-center pt-40  scroll-smooth  ">
       <p className="text-4xl md:text-6xl font-light  mb-10 underline">
         PROJECTS
       </p>
@@ -48,6 +48,7 @@ const Projects = () => {
             <p className=" rounded-2xl bg-slate-500 w-full ">Mongoose</p>
             <p className=" rounded-2xl bg-slate-500 w-full ">Node.js</p>
             <p className=" rounded-2xl bg-slate-500 w-full ">Heroku</p>
+            <p className=" rounded-2xl bg-slate-500 w-full ">Tailwind</p>
           </div>
         </div>
 
@@ -88,6 +89,7 @@ const Projects = () => {
             <p className=" rounded-2xl bg-slate-300 w-full ">Mongoose</p>
             <p className=" rounded-2xl bg-slate-300 w-full ">Node.js</p>
             <p className=" rounded-2xl bg-slate-300 w-full ">Heroku</p>
+            <p className=" rounded-2xl bg-slate-300 w-full ">Tailwind</p>
           </div>
         </div>
 
@@ -127,6 +129,7 @@ const Projects = () => {
             <p className=" rounded-2xl bg-slate-500 w-full ">JavaScript</p>
             <p className=" rounded-2xl bg-slate-500 w-full ">Firebase</p>
             <p className=" rounded-2xl bg-slate-500 w-full ">BaaS</p>
+            <p className=" rounded-2xl bg-slate-500 w-full ">Tailwind</p>
           </div>
         </div>
 
@@ -163,6 +166,7 @@ const Projects = () => {
             <p className=" rounded-2xl bg-slate-300 w-full ">React</p>
             <p className=" rounded-2xl bg-slate-300 w-full ">TypeScript</p>
             <p className=" rounded-2xl bg-slate-300 w-full ">Heroku</p>
+            <p className=" rounded-2xl bg-slate-300 w-full ">Tailwind</p>
           </div>
         </div>
       </div>
