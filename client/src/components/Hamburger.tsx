@@ -37,7 +37,7 @@ const Hamburger = () => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              window.location.href = window.location.origin + "/#home";
+              window.location.href = window.location.origin +  window.location.pathname + "#home";
               setIsOpen(false);
             }}
             className="rounded-full md:py-1 md:mx-5"
@@ -47,7 +47,7 @@ const Hamburger = () => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              window.location.href = window.location.origin + "/#projects";
+              window.location.href = window.location.href +window.location.pathname + "#projects";
               setIsOpen(false);
             }}
             className="rounded-full md:py-1 md:mx-5"
@@ -57,7 +57,7 @@ const Hamburger = () => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              window.location.href = window.location.origin + "/#education";
+              window.location.href = window.location.origin + window.location.pathname + "#education";
               setIsOpen(false);
             }}
             className=" rounded-full md:py-1 md:mx-5"
@@ -67,7 +67,7 @@ const Hamburger = () => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              window.location.href = window.location.origin + "/#about";
+              window.location.href = window.location.origin + window.location.pathname + "#about";
               setIsOpen(false);
             }}
             className=" rounded-full md:py-1 md:mx-5"
