@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mlchaplin.dev/static/css/main.236df4de.css",
-    "main.js": "/mlchaplin.dev/static/js/main.811b99d2.js",
-    "index.html": "/mlchaplin.dev/index.html",
-    "main.236df4de.css.map": "/mlchaplin.dev/static/css/main.236df4de.css.map",
-    "main.811b99d2.js.map": "/mlchaplin.dev/static/js/main.811b99d2.js.map"
+    "main.css": "/static/css/main.236df4de.css",
+    "main.js": "/static/js/main.715dc9bd.js",
+    "index.html": "/index.html",
+    "main.236df4de.css.map": "/static/css/main.236df4de.css.map",
+    "main.715dc9bd.js.map": "/static/js/main.715dc9bd.js.map"
   },
   "entrypoints": [
     "static/css/main.236df4de.css",
-    "static/js/main.811b99d2.js"
+    "static/js/main.715dc9bd.js"
   ]
 }
