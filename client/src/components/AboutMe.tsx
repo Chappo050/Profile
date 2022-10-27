@@ -1,6 +1,6 @@
-const AboutMe = () => {
+const AboutMe = ({active} :any) => {
     return (
-      <div id="about" className="flex flex-col text-center justify-center items-center  pt-40 scroll-smooth  ">
+      <div id="about" className="flex flex-col text-center justify-center items-center scroll-smooth border-2 m-10 absolute z-10 scale-75  bg-slate-400 border-slate-900  ">
         <p className="text-4xl md:text-6xl font-light  mb-10 underline">
           ABOUT
         </p>

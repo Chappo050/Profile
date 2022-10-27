@@ -1,8 +1,21 @@
-import { useRef } from 'react'
+import { Transition } from '@headlessui/react';
 
-const Projects = () => {
+const Projects = ({active} :any) => {
+
+
   return (
-    <div id="projects" className="flex flex-col text-center justify-center items-center pt-40 scroll-smooth ">
+<Transition
+as='div'
+show={active}
+enter="transition-all transform duration-1000 ease-out"
+enterFrom="transform scale-95 opacity-0"
+enterTo="transform scale-100 opacity-100"
+leave="transition-all transform duration-1000 duration-75 ease-out"
+leaveFrom="transform scale-100 opacity-100"
+leaveTo="transform scale-95 opacity-0"
+>
+
+    <div id="projects" className="flex flex-col text-center justify-center items-center scroll-smooth border-2 m-10 absolute z-10 scale-75  bg-slate-400 border-slate-900">
       <p className="text-4xl md:text-6xl font-light  mb-10 underline">
         PROJECTS
       </p>
@@ -173,6 +186,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
+    </Transition>
   );
 };
 
