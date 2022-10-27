@@ -47,10 +47,10 @@ const Hamburger = () => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              window.location.href = window.location.href +window.location.pathname + "#projects";
+              window.location.href = window.location.origin + window.location.pathname + "#projects";
               setIsOpen(false);
             }}
-            className="rounded-full md:py-1 md:mx-5"
+            className=" rounded-full md:py-1 md:mx-5"
           >
             Projects
           </button>

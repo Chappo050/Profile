@@ -1,6 +1,8 @@
+import { useRef } from 'react'
+
 const Projects = () => {
   return (
-    <div id="projects" className="flex flex-col text-center justify-center items-center pt-40  scroll-smooth  ">
+    <div id="projects" className="flex flex-col text-center justify-center items-center pt-40 scroll-smooth ">
       <p className="text-4xl md:text-6xl font-light  mb-10 underline">
         PROJECTS
       </p>
@@ -9,7 +11,7 @@ const Projects = () => {
         Here are some of the projects I have been working on. For every project
         I try my best to use a technology I have never used before.
       </p>
-      <div className="md:grid md:grid-cols-3 md:gap-5">
+      <div className="md:grid md:grid-cols-2 xl:grid-cols-3 md:gap-5">
         <div className="rounded-full  bg-slate-300  md:w-full h-auto p-16 my-5">
           <p className="font-bold underline underline-offset-2 text-2xl">
             ThesauRACE
@@ -40,8 +42,8 @@ const Projects = () => {
             This project also made me learn about CORS and Helmet.
           </p>
 
-          <div className=" grid grid-cols-3 md:grid-cols-4 text-sm md:text-base gap-3  pt-4">
-            <p className=" rounded-2xl bg-slate-500 w-full ">React</p>
+          <div className=" grid grid-cols-3 text-sm lg:text-base gap-3  pt-4">
+            <p className=" rounded-2xl bg-slate-500 w-full">React</p>
             <p className=" rounded-2xl bg-slate-500 w-full ">TypeScript</p>
             <p className=" rounded-2xl bg-slate-500 w-full ">Socket.io</p>
             <p className=" rounded-2xl bg-slate-500 w-full ">MongoDB</p>
@@ -82,7 +84,7 @@ const Projects = () => {
             MongoDB.
           </p>
 
-          <div className=" grid grid-cols-3 md:grid-cols-4 text-sm md:text-base gap-3 pt-4">
+          <div className=" grid grid-cols-3 text-sm lg:text-base gap-3 pt-4">
             <p className=" rounded-2xl bg-slate-300 w-full ">React</p>
             <p className=" rounded-2xl bg-slate-300 w-full ">TypeScript</p>
             <p className=" rounded-2xl bg-slate-300 w-full ">MongoDB</p>
@@ -124,7 +126,7 @@ const Projects = () => {
           </p>
 
 
-          <div className=" grid grid-cols-3 md:grid-cols-4 text-sm md:text-base gap-3 pt-4">
+          <div className=" grid grid-cols-3 text-sm lg:text-base gap-3 pt-4">
             <p className=" rounded-2xl bg-slate-500 w-full ">React</p>
             <p className=" rounded-2xl bg-slate-500 w-full ">JavaScript</p>
             <p className=" rounded-2xl bg-slate-500 w-full ">Firebase</p>
@@ -162,7 +164,7 @@ const Projects = () => {
           </p>
 
 
-          <div className=" grid grid-cols-3 md:grid-cols-4 text-sm md:text-base gap-3 pt-4">
+          <div className=" grid grid-cols-3 text-sm lg:text-base gap-3 pt-4">
             <p className=" rounded-2xl bg-slate-300 w-full ">React</p>
             <p className=" rounded-2xl bg-slate-300 w-full ">TypeScript</p>
             <p className=" rounded-2xl bg-slate-300 w-full ">Heroku</p>
