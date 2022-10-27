@@ -21,13 +21,19 @@ const Profile = () => {
       </div>
 
       <div className="rounded-full   bg-slate-300  w-auto md:w-1/2 h-auto p-12">
-          Programming has always been interesting to me. Wheather it is for games, robotics or automation. 
-          <br/>
-          <br/>
-          Although I have found web development to be the most intreging; specifically fullstack web development.
-          <br/>
-          <br/>
-          Knowing all the ins and outs of both the front-end and back-end helps me in building a responsive website.
+      Copy
+Programming has always been interesting to me. 
+<br/>
+Wheather it is for games, robotics or automation.
+<br/>
+<br/>
+Although I have found web development to be the most intreging;
+<br/>
+ specifically fullstack web development.
+<br/>
+<br/>
+Knowing all the ins and outs of both the front-end and back-end helps me in building a responsive website.
+<br/>
         </div>
     </div>
   );
