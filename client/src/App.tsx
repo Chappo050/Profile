@@ -31,7 +31,7 @@ const App = () => {
         >
           <div />
 
-          <Profile  />
+          <Profile />
           <Projects active={true} />
           <Education active={true} />
           <AboutMe active={true} />
@@ -39,32 +39,31 @@ const App = () => {
         </div>
       </div>
 
-      <div className="hidden md:block sticky top-0 ">
+      <div className="hidden md:block ">
         <AiOutlineCloseCircle
           onClick={() => allClose()}
           size={40}
           className={
             showProjects || showAbout || showContact || showEducation
-              ? "block"
+              ? "block sticky top-10 left-10 text-slate-700 w-12 h-12 z-10 hover:text-slate-200"
               : "hidden"
           }
         />
         <AnimatePresence>
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          />
-          {showProjects ? <Projects active={showProjects} /> : null}
-          {showEducation ? <Education active={showEducation} /> : null}
-          {showAbout ? <AboutMe active={showAbout} /> : null}
-          {showContact ? <AboutMe active={showContact} /> : null}
+          {!showProjects ?
+            null
+          : 
+          
+          <Projects active={showProjects} key={"projects"} />}
         </AnimatePresence>
+        {showEducation ? <Education active={showEducation} /> : null}
+        {showAbout ? <AboutMe active={showAbout} /> : null}
+        {showContact ? <AboutMe active={showContact} /> : null}
 
         <div
           className={
             showProjects || showAbout || showContact || showEducation
-              ? "blue-md blur-sm"
+              ? " blur-sm opacity-30"
               : ""
           }
         >

@@ -1,21 +1,18 @@
 import { Transition } from '@headlessui/react';
+import { motion } from 'framer-motion';
 
 const Projects = ({active} :any) => {
 
 
   return (
-<Transition
-as='div'
-show={active}
-enter="transition-all transform duration-1000 ease-out"
-enterFrom="transform scale-95 opacity-0"
-enterTo="transform scale-100 opacity-100"
-leave="transition-all transform duration-1000 duration-75 ease-out"
-leaveFrom="transform scale-100 opacity-100"
-leaveTo="transform scale-95 opacity-0"
->
 
-    <div id="projects" className="flex flex-col text-center pt-32 justify-center items-center scroll-smooth md:border-2 md:m-10 md:absolute md:z-10 md:scale-75  md:bg-slate-400 md:border-slate-900">
+    <div>
+          <motion.div
+      initial={{ opacity: 0, scale:0}}
+      animate={{ opacity: 1, scale:1 }}
+      exit={{ opacity: 0, scale:0 }}
+    >
+    <div id="projects" className="flex flex-col text-center pt-32 md:-top-28 justify-center items-center scroll-smooth md:pt-0 md:border-2 md:m-10 md:absolute md:z-10 md:scale-[0.7]  md:bg-slate-400 md:border-slate-900">
       <p className="text-4xl md:text-6xl font-light  mb-10 underline">
         PROJECTS
       </p>
@@ -186,7 +183,9 @@ leaveTo="transform scale-95 opacity-0"
         </div>
       </div>
     </div>
-    </Transition>
+    </motion.div>
+    </div>
+ 
   );
 };
 

@@ -2,7 +2,7 @@ import myPic from "../Images/me.jpeg";
 
 const Profile = () => {
   return (
-    <div className="flex flex-col text-center justify-center items-center scroll-smooth pt-10 ">
+    <div className="flex flex-col text-center justify-center items-center scroll-smooth pt-10 md:-z-10 ">
       <div className="text-6xl md:text-8xl font-light  mb-10">
         MATTHEW CHAPLIN
       </div>
