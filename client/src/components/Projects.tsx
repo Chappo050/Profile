@@ -15,7 +15,7 @@ leaveFrom="transform scale-100 opacity-100"
 leaveTo="transform scale-95 opacity-0"
 >
 
-    <div id="projects" className="flex flex-col text-center justify-center items-center scroll-smooth border-2 m-10 absolute z-10 scale-75  bg-slate-400 border-slate-900">
+    <div id="projects" className="flex flex-col text-center pt-32 justify-center items-center scroll-smooth md:border-2 md:m-10 md:absolute md:z-10 md:scale-75  md:bg-slate-400 md:border-slate-900">
       <p className="text-4xl md:text-6xl font-light  mb-10 underline">
         PROJECTS
       </p>

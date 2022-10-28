@@ -6,10 +6,10 @@ const Profile = () => {
       <div className="text-6xl md:text-8xl font-light  mb-10">
         MATTHEW CHAPLIN
       </div>
-  <div className="text-1xl md:text-2xl font-extralight mb-10">
+      <div className="text-1xl md:text-2xl font-extralight mb-10">
         HOBBY FULLSTACK DEVELOPER SEEKING EMPLOYMENT
       </div>
-      <div className="flex items-center justify-center gap-20 ">
+      <div className="grid grid-cols-1 md:flex items-center justify-center md:gap-20 ">
         <div className="">
           <img
             alt="Matthew Chaplin"
@@ -18,7 +18,7 @@ const Profile = () => {
           />
         </div>
 
-        <div className="rounded-full   bg-slate-300  w-auto md:w-1/2 h-auto p-12">
+        <div className="rounded-full text-sm   bg-slate-300 w-auto m-10 md:w-1/2 h-auto p-12">
           Copy Programming has always been interesting to me.
           <br />
           Wheather it is for games, robotics or automation.
@@ -34,7 +34,6 @@ const Profile = () => {
           <br />
         </div>
       </div>
-    
     </div>
   );
 };
