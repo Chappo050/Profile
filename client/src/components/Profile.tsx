@@ -9,12 +9,12 @@ const Profile = () => {
       <div className="text-1xl md:text-2xl font-extralight mb-10">
         HOBBY FULLSTACK DEVELOPER SEEKING EMPLOYMENT
       </div>
-      <div className="grid grid-cols-1 md:flex items-center justify-center md:gap-20 ">
+      <div className="grid grid-cols-1 md:flex items-center justify-center md:gap-20  ">
         <div className="">
           <img
             alt="Matthew Chaplin"
             src={myPic}
-            className="object-none w-48 h-48 rounded-full"
+            className="object-none w-48 h-48 rounded-full mx-auto"
           />
         </div>
 
