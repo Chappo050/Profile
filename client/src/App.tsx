@@ -25,6 +25,16 @@ const App = () => {
     <div>
       <div className="md:hidden block sticky top-0 ">
         <Hamburger />
+        <div id="home" className="flex flex-col text-center justify-center items-center pt-12 scroll-smooth ">
+        <div />
+
+       
+        <Profile />
+        <Projects /> 
+        <Education />
+        <AboutMe />
+        <div />
+      </div>
       </div>
 
       <div className="hidden md:block sticky top-0 ">
