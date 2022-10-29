@@ -16,11 +16,16 @@ const App = () => {
   const [showContact, setShowContact] = useState(false);
 
   const allClose = () => {
-    setShowProjects(false);
-    setShowEducation(false);
-    setShowAbout(false);
-    setShowContact(false);
+    if(showAbout || showContact || showEducation || showProjects === true)
+    {
+      setShowProjects(false);
+      setShowEducation(false);
+      setShowAbout(false);
+      setShowContact(false);
+    }
+
   };
+
   return (
     <div>
       <div className="lg:hidden block sticky top-0 ">
@@ -59,7 +64,7 @@ const App = () => {
           {showContact ? <Contact /> : null}
         </AnimatePresence>
 
-        <div
+        <div onClick={() => allClose()}
           className={
             showProjects || showAbout || showContact || showEducation
               ? " blur-sm opacity-[55%] -z-10 absolute "
