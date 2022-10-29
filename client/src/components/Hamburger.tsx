@@ -6,7 +6,7 @@ import { BsLinkedin } from "react-icons/bs";
 const Hamburger = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="sticky top-0 w-full  text-black md:py-2 scroll-smooth ">
+    <div className="sticky top-0 w-full  text-black md:py-2 scroll-smooth z-50 ">
       <button className="  text-3xl m-2" onClick={() => setIsOpen(true)}>
         <FaHamburger />
       </button>
