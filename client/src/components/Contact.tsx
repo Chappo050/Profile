@@ -37,14 +37,14 @@ const Contact = () => {
                 https://www.linkedin.com/in/matthew-chaplin-dev/{" "}
               </a>
             </p>
-            <div className="flex justify-center gap-10 p-5">
-              <a href="https://github.com/Chappo050" className="text-4xl">
+            <div className="flex justify-center gap-10 p-5 ">
+              <a href="https://github.com/Chappo050" className="text-4xl md:text-6xl">
                 {" "}
                 <BsGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/matthew-chaplin-dev/"
-                className="text-4xl"
+                className="text-4xl md:text-6xl"
               >
                 {" "}
                 <BsLinkedin />

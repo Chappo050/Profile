@@ -23,7 +23,7 @@ const Projects = () => {
             project I try my best to use a technology I have never used before.
           </p>
           <div className="lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-5">
-            <div className="rounded-full  bg-slate-300  lg:w-full h-auto p-12 my-5">
+            <div className="rounded-full  bg-slate-300  lg:w-full h-auto p-12 md:p-16 my-5">
               <p className="font-bold underline underline-offset-2 text-2xl">
                 ThesauRACE
               </p>
@@ -65,7 +65,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="rounded-full  bg-slate-500  lg:w-full h-auto p-12 my-5">
+            <div className="rounded-full  bg-slate-500  lg:w-full h-auto p-12 md:p-16 my-5">
               <p className="font-bold underline underline-offset-2 text-2xl">
                 Blog
               </p>
@@ -106,7 +106,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="rounded-full  bg-slate-300  lg:w-full h-auto p-12 my-5">
+            <div className="rounded-full  bg-slate-300  lg:w-full h-auto p-12  md:p-16 my-5">
               <p className="font-bold underline underline-offset-2 text-2xl">
                 Finder
               </p>
@@ -145,7 +145,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="rounded-full  bg-slate-500  lg:w-full h-auto p-12 my-5">
+            <div className="rounded-full  bg-slate-500  lg:w-full h-auto p-12 md:p-16 my-5">
               <p className="font-bold underline underline-offset-2 text-2xl">
                 Profile Website (This)
               </p>
