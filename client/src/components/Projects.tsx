@@ -23,7 +23,7 @@ const Projects = () => {
             project I try my best to use a technology I have never used before.
           </p>
           <div className="lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-5">
-            <div className="rounded-full  bg-slate-300  lg:w-full h-auto p-16 my-5">
+            <div className="rounded-full  bg-slate-300  lg:w-full h-auto p-12 my-5">
               <p className="font-bold underline underline-offset-2 text-2xl">
                 ThesauRACE
               </p>
@@ -53,7 +53,7 @@ const Projects = () => {
                 This project also made me learn about CORS and Helmet.
               </p>
 
-              <div className=" grid grid-cols-3 text-sm lg:text-base gap-3  pt-4">
+              <div className=" grid grid-cols-3 text-xs sm:text-sm md:text-base lg:text-lg gap-3 pt-4">
                 <p className=" rounded-2xl bg-slate-500 w-full">React</p>
                 <p className=" rounded-2xl bg-slate-500 w-full ">TypeScript</p>
                 <p className=" rounded-2xl bg-slate-500 w-full ">Socket.io</p>
@@ -65,7 +65,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="rounded-full  bg-slate-500  lg:w-full h-auto p-16 my-5">
+            <div className="rounded-full  bg-slate-500  lg:w-full h-auto p-12 my-5">
               <p className="font-bold underline underline-offset-2 text-2xl">
                 Blog
               </p>
@@ -95,7 +95,7 @@ const Projects = () => {
                 MongoDB.
               </p>
 
-              <div className=" grid grid-cols-3 text-sm lg:text-base gap-3 pt-4">
+              <div className=" grid grid-cols-3 text-xs sm:text-sm md:text-base lg:text-lg gap-3 pt-4">
                 <p className=" rounded-2xl bg-slate-300 w-full ">React</p>
                 <p className=" rounded-2xl bg-slate-300 w-full ">TypeScript</p>
                 <p className=" rounded-2xl bg-slate-300 w-full ">MongoDB</p>
@@ -106,7 +106,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="rounded-full  bg-slate-300  lg:w-full h-auto p-16 my-5">
+            <div className="rounded-full  bg-slate-300  lg:w-full h-auto p-12 my-5">
               <p className="font-bold underline underline-offset-2 text-2xl">
                 Finder
               </p>
@@ -136,7 +136,7 @@ const Projects = () => {
                 to have incase I ever need it.
               </p>
 
-              <div className=" grid grid-cols-3 text-sm lg:text-base gap-3 pt-4">
+              <div className=" grid grid-cols-3 text-xs sm:text-sm md:text-base lg:text-lg gap-3 pt-4">
                 <p className=" rounded-2xl bg-slate-500 w-full ">React</p>
                 <p className=" rounded-2xl bg-slate-500 w-full ">JavaScript</p>
                 <p className=" rounded-2xl bg-slate-500 w-full ">Firebase</p>
@@ -145,7 +145,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="rounded-full  bg-slate-500  lg:w-full h-auto p-16 my-5">
+            <div className="rounded-full  bg-slate-500  lg:w-full h-auto p-12 my-5">
               <p className="font-bold underline underline-offset-2 text-2xl">
                 Profile Website (This)
               </p>
@@ -173,7 +173,7 @@ const Projects = () => {
                 This also doubles as a website to focus on design.
               </p>
 
-              <div className=" grid grid-cols-3 text-sm lg:text-base gap-3 pt-4">
+              <div className=" grid grid-cols-3 text-xs sm:text-sm md:text-base lg:text-lg gap-3 pt-4">
                 <p className=" rounded-2xl bg-slate-300 w-full ">React</p>
                 <p className=" rounded-2xl bg-slate-300 w-full ">TypeScript</p>
                 <p className=" rounded-2xl bg-slate-300 w-full ">Framer</p>

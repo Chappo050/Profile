@@ -35,7 +35,7 @@ const Profile = () => {
             <span className="text-sm">drag me ► X</span>
           </div>
         </motion.div>
-        <div className="rounded-full text-sm   bg-slate-300 w-auto m-10 lg:w-1/2 h-auto p-12">
+        <div className="rounded-full  bg-slate-300 w-auto m-10 lg:w-1/2 h-auto p-12 text-xs sm:text-sm md:text-base lg:text-lg">
           Programming has always been interesting to me.
           <br />
           Wheather it is for games, robotics or automation.

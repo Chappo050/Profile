@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FaHamburger } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
+
 const Hamburger = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (

@@ -34,6 +34,7 @@ const App = () => {
           <Projects />
           <Education />
           <AboutMe />
+          <Contact />
           <div />
         </div>
       </div>

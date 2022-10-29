@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { BsGithub } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -12,7 +14,7 @@ const Contact = () => {
         <div
           id="about"
           className="flex flex-col text-center pt-32  justify-center items-center scroll-smooth lg:w-full lg:mt-52 lg:px-20 lg:opacity-[85%]  lg:pt-0 lg:border-2 lg:absolute  lg:left-1/2 lg:transform lg:-translate-x-1/2  lg:z-10 lg:scale-[0.8] lg:bg-slate-400 lg:border-slate-900"
-          >
+        >
           <p className="text-4xl lg:text-6xl font-light  mb-10 underline">
             CONTACT
           </p>
@@ -23,11 +25,31 @@ const Contact = () => {
             </h1>
 
             <p className="lg:text-4xl">
-              Email:  matthewchaplin60@gmail.com
+              Email: matthewchaplin60@gmail.com
               <br />
               <br />
-              LinkedIn: <a href="https://www.linkedin.com/in/matthew-chaplin-dev/" className="hover:underline hover:text-blue-600"> https://www.linkedin.com/in/matthew-chaplin-dev/ </a> 
+              LinkedIn:{" "}
+              <a
+                href="https://www.linkedin.com/in/matthew-chaplin-dev/"
+                className="hover:underline hover:text-blue-600"
+              >
+                {" "}
+                https://www.linkedin.com/in/matthew-chaplin-dev/{" "}
+              </a>
             </p>
+            <div className="flex justify-center gap-10 p-5">
+              <a href="https://github.com/Chappo050" className="text-4xl">
+                {" "}
+                <BsGithub />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/matthew-chaplin-dev/"
+                className="text-4xl"
+              >
+                {" "}
+                <BsLinkedin />
+              </a>
+            </div>
           </div>
         </div>
       </motion.div>
