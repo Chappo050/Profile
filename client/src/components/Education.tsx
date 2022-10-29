@@ -11,19 +11,19 @@ const Education = () => {
       >
         <div
           id="education"
-          className="flex flex-col text-center pt-32  justify-center items-center scroll-smooth md:w-full  md:opacity-[85%]  md:px-20 md:pt-0 md:border-2 md:absolute  md:left-1/2 md:transform md:-translate-x-1/2  md:z-10 md:scale-[0.8] md:bg-slate-400 md:border-slate-900"
+          className="flex flex-col text-center pt-32  justify-center items-center scroll-smooth lg:w-full  lg:opacity-[85%]  lg:px-20 lg:pt-0 lg:border-2 lg:absolute  lg:left-1/2 lg:transform lg:-translate-x-1/2  lg:z-10 lg:scale-[0.8] lg:bg-slate-400 lg:border-slate-900"
         >
-          <p className="text-4xl md:text-6xl font-light mb-10 underline ">
+          <p className="text-4xl lg:text-6xl font-light mb-10 underline ">
             EDUCATION
           </p>
 
-          <div className="flex flex-col-2  gap-10 md:text-xl">
+          <div className="lg:flex lg:flex-col-2  lg:gap-10 lg:text-xl">
             <div>
 
             
-            <p className="text-2xl md:text-3xl font-light my-5 ">PROGRAMMING</p>
-            <div className="rounded-xl  bg-slate-300  md:w-auto h-auto p-5 m-5 ">
-              <p className="text-2xl md:text-3xl font-light mb-5 ">
+            <p className="text-2xl lg:text-3xl font-light my-5 ">PROGRAMMING</p>
+            <div className="rounded-xl  bg-slate-300  lg:w-auto h-auto p-5 m-5 ">
+              <p className="text-2xl lg:text-3xl font-light mb-5 ">
                 FULL STACK WEB DEVELOPMENT
               </p>
 
@@ -56,8 +56,8 @@ const Education = () => {
               </p>
             </div>
 
-            <div className="rounded-xl  bg-slate-500  md:w-auto h-auto p-5 m-5">
-              <p className="text-2xl md:text-3xl font-light mb-5 ">
+            <div className="rounded-xl  bg-slate-500  lg:w-auto h-auto p-5 m-5">
+              <p className="text-2xl lg:text-3xl font-light mb-5 ">
                 OTHER PROGRAMMING
               </p>
 
@@ -82,10 +82,10 @@ const Education = () => {
             <div>
 
             
-            <p className="text-2xl md:text-3xl font-light my-5 ">UNIVERSITY</p>
+            <p className="text-2xl lg:text-3xl font-light my-5 ">UNIVERSITY</p>
 
-            <div className="rounded-xl  bg-slate-300  md:w-auto h-auto p-5 m-5">
-              <p className="text-2xl md:text-3xl font-light ">
+            <div className="rounded-xl  bg-slate-300  lg:w-auto h-auto p-5 m-5">
+              <p className="text-2xl lg:text-3xl font-light ">
                 Bachelor of Science (Chemistry) (Honours)
               </p>
 
@@ -103,8 +103,8 @@ const Education = () => {
               </p>
             </div>
 
-            <div className="rounded-xl  bg-slate-500  md:w-auto h-auto p-5 m-5">
-              <p className="text-2xl md:text-3xl font-light  ">
+            <div className="rounded-xl  bg-slate-500  lg:w-auto h-auto p-5 m-5">
+              <p className="text-2xl lg:text-3xl font-light  ">
                 Bachelor of Biotechnology and Chemistry
               </p>
 

@@ -11,14 +11,14 @@ const AboutMe = () => {
       >
         <div
           id="about"
-          className="flex flex-col text-center pt-32  justify-center items-center scroll-smooth md:w-full md:mt-40 md:opacity-[85%]  md:px-20 md:pt-0 md:border-2 md:absolute  md:left-1/2 md:transform md:-translate-x-1/2  md:z-10 md:scale-[0.8] md:bg-slate-400 md:border-slate-900"
+          className="flex flex-col text-center pt-32  justify-center items-center scroll-smooth lg:w-full lg:mt-40 lg:opacity-[85%]  lg:px-20 lg:pt-0 lg:border-2 lg:absolute  lg:left-1/2 lg:transform lg:-translate-x-1/2  lg:z-10 lg:scale-[0.8] lg:bg-slate-400 lg:border-slate-900"
           >
-          <p className="text-4xl md:text-6xl font-light  mb-10 underline">
+          <p className="text-4xl lg:text-6xl font-light  mb-10 underline">
             ABOUT
           </p>
 
-          <div className="rounded-xl  bg-slate-300  md:w-full h-auto p-5 m-5">
-            <p className="text-2xl md:text-3xl font-light mb-5 ">
+          <div className="rounded-xl  bg-slate-300  lg:w-full h-auto p-5 m-5">
+            <p className="text-2xl lg:text-3xl font-light mb-5 ">
               WHY PROGRAMMING?
             </p>
 
@@ -39,8 +39,8 @@ const AboutMe = () => {
             </p>
           </div>
 
-          <div className="rounded-xl  bg-slate-500  md:w-full h-auto p-5 m-5">
-            <p className="text-2xl md:text-3xl font-light mb-5 ">HOBBIES</p>
+          <div className="rounded-xl  bg-slate-500  lg:w-full h-auto p-5 m-5">
+            <p className="text-2xl lg:text-3xl font-light mb-5 ">HOBBIES</p>
 
             <p className="">
               <li>Hiking: Love spending a day in nature</li>

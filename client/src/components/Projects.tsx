@@ -12,18 +12,18 @@ const Projects = () => {
       >
         <div
           id="projects"
-          className="flex flex-col text-center pt-32  justify-center items-center scroll-smooth md:w-full md:px-20 md:opacity-[85%] md:-mt-10 md:pt-0 md:border-2 md:absolute  md:left-1/2 md:transform md:-translate-x-1/2  md:z-10 md:scale-[0.8] md:bg-slate-400 md:border-slate-900"
+          className="flex flex-col text-center pt-32  justify-center items-center scroll-smooth lg:w-full lg:px-20 lg:opacity-[85%] lg:-mt-10 lg:pt-0 lg:border-2 lg:absolute  lg:left-1/2 lg:transform lg:-translate-x-1/2  lg:z-10 lg:scale-[0.8] lg:bg-slate-400 lg:border-slate-900"
           >
-          <p className="text-4xl md:text-6xl font-light  mb-10 underline">
+          <p className="text-4xl lg:text-6xl font-light  mb-10 underline">
             PROJECTS
           </p>
 
-          <p className="text-1xl md:text-2xl font-extralight mb-10">
+          <p className="text-1xl lg:text-2xl font-extralight mb-10">
             Here are some of the projects I have been working on. For every
             project I try my best to use a technology I have never used before.
           </p>
-          <div className="md:grid md:grid-cols-2 xl:grid-cols-3 md:gap-5">
-            <div className="rounded-full  bg-slate-300  md:w-full h-auto p-16 my-5">
+          <div className="lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-5">
+            <div className="rounded-full  bg-slate-300  lg:w-full h-auto p-16 my-5">
               <p className="font-bold underline underline-offset-2 text-2xl">
                 ThesauRACE
               </p>
@@ -65,7 +65,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="rounded-full  bg-slate-500  md:w-full h-auto p-16 my-5">
+            <div className="rounded-full  bg-slate-500  lg:w-full h-auto p-16 my-5">
               <p className="font-bold underline underline-offset-2 text-2xl">
                 Blog
               </p>
@@ -106,7 +106,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="rounded-full  bg-slate-300  md:w-full h-auto p-16 my-5">
+            <div className="rounded-full  bg-slate-300  lg:w-full h-auto p-16 my-5">
               <p className="font-bold underline underline-offset-2 text-2xl">
                 Finder
               </p>
@@ -145,7 +145,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="rounded-full  bg-slate-500  md:w-full h-auto p-16 my-5">
+            <div className="rounded-full  bg-slate-500  lg:w-full h-auto p-16 my-5">
               <p className="font-bold underline underline-offset-2 text-2xl">
                 Profile Website (This)
               </p>
@@ -176,7 +176,7 @@ const Projects = () => {
               <div className=" grid grid-cols-3 text-sm lg:text-base gap-3 pt-4">
                 <p className=" rounded-2xl bg-slate-300 w-full ">React</p>
                 <p className=" rounded-2xl bg-slate-300 w-full ">TypeScript</p>
-                <p className=" rounded-2xl bg-slate-300 w-full ">Heroku</p>
+                <p className=" rounded-2xl bg-slate-300 w-full ">Framer</p>
                 <p className=" rounded-2xl bg-slate-300 w-full ">Tailwind</p>
               </div>
             </div>

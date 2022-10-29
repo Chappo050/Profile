@@ -11,18 +11,18 @@ const Contact = () => {
       >
         <div
           id="about"
-          className="flex flex-col text-center pt-32  justify-center items-center scroll-smooth md:w-full md:mt-52 md:px-20 md:opacity-[85%]  md:pt-0 md:border-2 md:absolute  md:left-1/2 md:transform md:-translate-x-1/2  md:z-10 md:scale-[0.8] md:bg-slate-400 md:border-slate-900"
+          className="flex flex-col text-center pt-32  justify-center items-center scroll-smooth lg:w-full lg:mt-52 lg:px-20 lg:opacity-[85%]  lg:pt-0 lg:border-2 lg:absolute  lg:left-1/2 lg:transform lg:-translate-x-1/2  lg:z-10 lg:scale-[0.8] lg:bg-slate-400 lg:border-slate-900"
           >
-          <p className="text-4xl md:text-6xl font-light  mb-10 underline">
+          <p className="text-4xl lg:text-6xl font-light  mb-10 underline">
             CONTACT
           </p>
 
-          <div className="rounded-xl  bg-slate-300  md:w-full h-auto p-5 m-5">
-            <h1 className="text-2xl md:text-4xl font-light mb-5 ">
+          <div className="rounded-xl  bg-slate-300  lg:w-full h-auto p-5 m-5">
+            <h1 className="text-2xl lg:text-4xl font-light mb-5 ">
               Fell free to contact me.
             </h1>
 
-            <p className="md:text-4xl">
+            <p className="lg:text-4xl">
               Email:  matthewchaplin60@gmail.com
               <br />
               <br />

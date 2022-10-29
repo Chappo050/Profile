@@ -23,7 +23,7 @@ const App = () => {
   };
   return (
     <div>
-      <div className="md:hidden block sticky top-0 ">
+      <div className="lg:hidden block sticky top-0 ">
         <Hamburger />
         <div
           id="home"
@@ -32,13 +32,13 @@ const App = () => {
           <div />
           <Profile />
           <Projects />
-          <Education />1
+          <Education />
           <AboutMe />
           <div />
         </div>
       </div>
 
-      <div className="hidden md:block ">
+      <div className="hidden lg:block ">
         <AiOutlineCloseCircle
           onClick={() => allClose()}
           size={40}
@@ -73,10 +73,13 @@ const App = () => {
                 whileHover={{scale:1.1}}
                 onClick={() => {
                   setShowProjects(!showProjects);
+                  setShowAbout(false);
+                  setShowContact(false);
+                  setShowEducation(false);
                 }}
               >
-                <div className="bg-slate-300 rounded-full w-full h-40 p-5 m-4">
-                  <span>PROJECTS</span>
+                <div className="bg-slate-300 rounded-full w-full h-full  p-10 ">
+                  <span className="text-base sm:text-2xl lg:text-xl 2xl:text-4xl">PROJECTS</span>
                   <br />
                   <span className="text-base">
                     Take a look at the projects I have made.
@@ -87,11 +90,14 @@ const App = () => {
                 whileTap={{ scale: 0.95 }}
                 whileHover={{scale:1.1}}
                 onClick={() => {
+                  setShowProjects(false);
+                  setShowAbout(false);
+                  setShowContact(false);
                   setShowEducation(!showEducation);
                 }}
               >
-                <div className="bg-slate-500 rounded-full w-full h-40 p-5 m-4">
-                  <span>EDUCATION</span>
+                <div className="bg-slate-500 rounded-full w-full h-full  p-10 ">
+                  <span className="text-base sm:text-2xl lg:text-xl  2xl:text-4xl">EDUCATION</span>
                   <br />
                   <span className="text-base">
                     My education and background.
@@ -102,11 +108,14 @@ const App = () => {
                 whileTap={{ scale: 0.95 }}
                 whileHover={{scale:1.1}}
                 onClick={() => {
+                  setShowProjects(false);
                   setShowAbout(!showAbout);
+                  setShowContact(false);
+                  setShowEducation(false);
                 }}
               >
-                <div className="bg-slate-300 rounded-full w-full h-40 p-5 m-4">
-                  <span>ABOUT</span>
+                <div className="bg-slate-300 rounded-full w-full h-full  p-10 ">
+                  <span className="text-base sm:text-2xl lg:text-xl  2xl:text-4xl">ABOUT</span>
                   <br />
                   <span className="text-base">
                     Learn a bit more about who I am.
@@ -117,13 +126,16 @@ const App = () => {
                 whileTap={{ scale: 0.95 }}
                 whileHover={{scale:1.1}}
                 onClick={() => {
+                  setShowProjects(false);
+                  setShowAbout(false);
                   setShowContact(!showContact);
+                  setShowEducation(false);
                 }}
               >
-                <div className="bg-slate-500 rounded-full w-full h-40 p-5 m-4">
-                  <span>CONTACT</span>
+                <div className="bg-slate-500 rounded-full w-full h-full p-10 ">
+                  <span className="text-base sm:text-2xl lg:text-xl  2xl:text-4xl ">CONTACT</span>
                   <br />
-                  <span className="text-base">Places you can contact me.</span>
+                  <span className="text-base ">Places you can contact me.</span>
                 </div>
               </motion.button>
             </div>
