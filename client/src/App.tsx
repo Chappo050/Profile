@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import AboutMe from "./components/AboutMe";
 import Education from "./components/Education";
 import Hamburger from "./components/Hamburger";
-import Nav from "./components/Nav";
+import Contact from "./components/Contact";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 
@@ -30,11 +30,10 @@ const App = () => {
           className="flex flex-col text-center justify-center items-center pt-12 scroll-smooth m-10 "
         >
           <div />
-
           <Profile />
-          <Projects active={true} />
-          <Education active={true} />
-          <AboutMe active={true} />
+          <Projects />
+          <Education />1
+          <AboutMe />
           <div />
         </div>
       </div>
@@ -50,20 +49,19 @@ const App = () => {
           }
         />
         <AnimatePresence>
-          {!showProjects ?
-            null
-          : 
-          
-          <Projects active={showProjects} key={"projects"} />}
+          {!showProjects ? null : <Projects />}
+
+          {showEducation ? <Education  /> : null}
+
+          {showAbout ? <AboutMe /> : null}
+
+          {showContact ? <Contact /> : null}
         </AnimatePresence>
-        {showEducation ? <Education active={showEducation} /> : null}
-        {showAbout ? <AboutMe active={showAbout} /> : null}
-        {showContact ? <AboutMe active={showContact} /> : null}
 
         <div
           className={
             showProjects || showAbout || showContact || showEducation
-              ? " blur-sm opacity-30"
+              ? " blur-sm opacity-[55%] -z-10 absolute "
               : ""
           }
         >
@@ -72,6 +70,7 @@ const App = () => {
             <div className="grid grid-cols-4 gap-12 py-16 px-40">
               <motion.button
                 whileTap={{ scale: 0.95 }}
+                whileHover={{scale:1.1}}
                 onClick={() => {
                   setShowProjects(!showProjects);
                 }}
@@ -86,6 +85,7 @@ const App = () => {
               </motion.button>
               <motion.button
                 whileTap={{ scale: 0.95 }}
+                whileHover={{scale:1.1}}
                 onClick={() => {
                   setShowEducation(!showEducation);
                 }}
@@ -100,6 +100,7 @@ const App = () => {
               </motion.button>
               <motion.button
                 whileTap={{ scale: 0.95 }}
+                whileHover={{scale:1.1}}
                 onClick={() => {
                   setShowAbout(!showAbout);
                 }}
@@ -114,8 +115,9 @@ const App = () => {
               </motion.button>
               <motion.button
                 whileTap={{ scale: 0.95 }}
+                whileHover={{scale:1.1}}
                 onClick={() => {
-                  setShowProjects(!showProjects);
+                  setShowContact(!showContact);
                 }}
               >
                 <div className="bg-slate-500 rounded-full w-full h-40 p-5 m-4">
