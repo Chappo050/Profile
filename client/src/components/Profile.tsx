@@ -15,7 +15,7 @@ const Profile = () => {
       <div className="text-6xl lg:text-8xl font-light  mb-10">
         MATTHEW CHAPLIN
       </div>
-      <div className="text-1xl lg:text-2xl font-extralight mb-10">
+      <div className="text-1xl lg:text-2xl font-extralight mb-10 rounded-full  bg-slate-300 w-auto px-5">
         HOBBY FULLSTACK DEVELOPER SEEKING EMPLOYMENT
       </div>
 

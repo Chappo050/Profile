@@ -18,10 +18,6 @@ const Projects = () => {
             PROJECTS
           </p>
 
-          <p className="text-1xl lg:text-2xl font-extralight mb-10">
-            Here are some of the projects I have been working on. For every
-            project I try my best to use a technology I have never used before.
-          </p>
           <div className="lg:grid lg:grid-cols-2 lg:gap-5 text-base md:text-xl lg:text-2xl">
             <div className="rounded-full  bg-slate-300  lg:w-full h-auto p-12 md:p-16 my-5">
               <p className="font-bold underline underline-offset-2 text-2xl">

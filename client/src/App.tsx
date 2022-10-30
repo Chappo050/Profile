@@ -27,7 +27,7 @@ const App = () => {
   };
 
   return (
-    <div onClick={() => allClose()}>
+    <div onClick={() => allClose()} className="">
       <div className="lg:hidden block sticky top-0 ">
         <Hamburger />
         <div
@@ -50,7 +50,7 @@ const App = () => {
           size={40}
           className={
             showProjects || showAbout || showContact || showEducation
-              ? "block sticky top-10 left-10 text-slate-700 w-12 h-12 z-10 hover:text-slate-200"
+              ? "block sticky top-10 left-10 text-slate-400 w-12 h-12 z-10 hover:text-slate-100"
               : "hidden"
           }
         />
@@ -71,9 +71,10 @@ const App = () => {
               : ""
           }
         >
+        
           <Profile />
           <div id="home" className="text-center pt-12 text-4xl">
-            <div className="grid grid-cols-4 gap-12 py-16 px-40">
+            <div className="grid grid-cols-4 gap-12 py-10 px-40">
               <motion.button
                 whileTap={{ scale: 0.95 }}
                 whileHover={{scale:1.1}}
