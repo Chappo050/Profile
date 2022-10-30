@@ -27,7 +27,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div onClick={() => allClose()}>
       <div className="lg:hidden block sticky top-0 ">
         <Hamburger />
         <div
@@ -64,10 +64,10 @@ const App = () => {
           {showContact ? <Contact /> : null}
         </AnimatePresence>
 
-        <div onClick={() => allClose()}
+        <div 
           className={
             showProjects || showAbout || showContact || showEducation
-              ? " blur-sm opacity-[55%] -z-10 absolute "
+              ? " blur-sm opacity-[10%] -z-10 block "
               : ""
           }
         >

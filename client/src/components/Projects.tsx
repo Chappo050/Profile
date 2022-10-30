@@ -12,7 +12,7 @@ const Projects = () => {
       >
         <div
           id="projects"
-          className="flex flex-col text-center pt-32  justify-center items-center scroll-smooth lg:w-full lg:px-20 lg:opacity-[85%] lg:-mt-10 lg:pt-0 lg:border-2 lg:absolute  lg:left-1/2 lg:transform lg:-translate-x-1/2  lg:z-10 lg:scale-[0.8] lg:bg-slate-400 lg:border-slate-900"
+          className="flex flex-col text-center pt-20 justify-center items-center scroll-smooth lg:w-full lg:px-20 lg:-mt-10 lg:pt-0 lg:border-2 lg:absolute  lg:left-1/2 lg:transform lg:-translate-x-1/2  lg:z-10 lg:scale-[0.8] lg:bg-slate-400 lg:border-slate-900"
           >
           <p className="text-4xl lg:text-6xl font-light  mb-10 underline">
             PROJECTS
@@ -22,7 +22,7 @@ const Projects = () => {
             Here are some of the projects I have been working on. For every
             project I try my best to use a technology I have never used before.
           </p>
-          <div className="lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-5">
+          <div className="lg:grid lg:grid-cols-2 lg:gap-5 text-base md:text-xl lg:text-2xl">
             <div className="rounded-full  bg-slate-300  lg:w-full h-auto p-12 md:p-16 my-5">
               <p className="font-bold underline underline-offset-2 text-2xl">
                 ThesauRACE
@@ -32,13 +32,13 @@ const Projects = () => {
               <p className="">
                 <a
                   href="https://thesaurace.herokuapp.com/"
-                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg  px-5 py-2.5 mr-2 mb-2 focus:outline-none "
                 >
                   Website
                 </a>
                 <a
                   href="https://github.com/Chappo050/Thesarace"
-                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg  px-5 py-2.5 mr-2 mb-2 focus:outline-none"
                 >
                   Github
                 </a>
@@ -74,13 +74,13 @@ const Projects = () => {
               <p className="">
                 <a
                   href="https://mern-blog-chappo050.herokuapp.com/"
-                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg  px-5 py-2.5 mr-2 mb-2 focus:outline-none"
                 >
                   Website
                 </a>
                 <a
                   href="https://github.com/Chappo050/Blog-Heroku"
-                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg  px-5 py-2.5 mr-2 mb-2 focus:outline-none"
                 >
                   Github
                 </a>
@@ -115,13 +115,13 @@ const Projects = () => {
               <p className="">
                 <a
                   href="https://chappo050.github.io/Finder-firebase/"
-                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg  px-5 py-2.5 mr-2 mb-2 focus:outline-none"
                 >
                   Website
                 </a>
                 <a
                   href="https://github.com/Chappo050/Finder-firebase"
-                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg  px-5 py-2.5 mr-2 mb-2 focus:outline-none"
                 >
                   Github
                 </a>
@@ -154,13 +154,13 @@ const Projects = () => {
               <p className="">
                 <a
                   href="/"
-                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg  px-5 py-2.5 mr-2 mb-2 focus:outline-none"
                 >
                   Website
                 </a>
                 <a
                   href="https://github.com/Chappo050/Profile"
-                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none"
+                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg  px-5 py-2.5 mr-2 mb-2 focus:outline-none"
                 >
                   Github
                 </a>

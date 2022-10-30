@@ -11,18 +11,18 @@ const Education = () => {
       >
         <div
           id="education"
-          className="flex flex-col text-center pt-32  justify-center items-center scroll-smooth lg:w-full  lg:opacity-[85%]  lg:px-20 lg:pt-0 lg:border-2 lg:absolute  lg:left-1/2 lg:transform lg:-translate-x-1/2  lg:z-10 lg:scale-[0.8] lg:bg-slate-400 lg:border-slate-900"
+          className="flex flex-col text-center pt-20 justify-center items-center scroll-smooth lg:w-full  lg:px-20 lg:pt-0 lg:border-2 lg:absolute  lg:left-1/2 lg:transform lg:-translate-x-1/2  lg:z-10 lg:scale-[0.8] lg:bg-slate-400 lg:border-slate-900"
         >
           <p className="text-4xl lg:text-6xl font-light mb-10 underline ">
             EDUCATION
           </p>
 
-          <div className="lg:flex lg:flex-col-2  lg:gap-10 lg:text-xl">
+          <div className="lg:flex lg:flex-col-2  lg:gap-10 text-base md:text-lg lg:text-xl">
             <div>
 
             
             <p className="text-2xl lg:text-3xl font-light my-5 ">PROGRAMMING</p>
-            <div className="rounded-xl  bg-slate-300  lg:w-auto h-auto p-5 m-5 ">
+            <div className="rounded-xl  bg-slate-300  lg:w-auto h-auto p-5 m-5  ">
               <p className="text-2xl lg:text-3xl font-light mb-5 ">
                 FULL STACK WEB DEVELOPMENT
               </p>
@@ -34,14 +34,14 @@ const Education = () => {
                 For fullstack web development I completed{" "}
                 <a
                   href="https://www.theodinproject.com/paths/full-stack-javascript?"
-                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg text-sm px-5 py-0.5 mr-2 mb-2 focus:outline-none"
+                  className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg text-sm md:text-base lg:text-lg px-5 py-0.5 mr-2 mb-2 focus:outline-none"
                 >
                   The Odin Project
                 </a>
                 .
                 <br />
                 <br />
-                This didn't teach many many essential skills; so I took it upon
+                This didn't teach many essential skills; so I took it upon
                 myself to learn: <br /> TypeScript, Tailwind (also Bootstrap but
                 prefer Tailwind) and more complex backend technologies.
                 <br />

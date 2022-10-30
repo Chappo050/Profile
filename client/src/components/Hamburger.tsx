@@ -75,7 +75,16 @@ const Hamburger = () => {
           >
             About
           </button>
-
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = window.location.origin + window.location.pathname + "#contact";
+              setIsOpen(false);
+            }}
+            className=" rounded-full md:py-1 md:mx-5"
+          >
+            Contact
+          </button>
           <a href="https://github.com/Chappo050" className="text-4xl">
             {" "}
             <BsGithub />
