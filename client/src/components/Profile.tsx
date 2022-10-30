@@ -8,10 +8,7 @@ const Profile = () => {
     dragControls.start(event, { snapToCursor: true });
   }
   return (
-    <div
-      
-      className="flex flex-col text-center justify-center items-center scroll-smooth pt-10 lg:-z-10  "
-    >
+    <div className="flex flex-col text-center justify-center items-center scroll-smooth pt-10 lg:-z-10  ">
       <div className="text-6xl lg:text-8xl font-light  mb-10">
         MATTHEW CHAPLIN
       </div>
@@ -41,7 +38,7 @@ const Profile = () => {
           Wheather it is for games, robotics or automation.
           <br />
           <br />
-          Although I have found web development to be the most intreging;
+          Although I have found web development to be the most intriguing;
           <br />
           specifically fullstack web development.
           <br />
