@@ -24,27 +24,27 @@ const Contact = () => {
               Fell free to contact me.
             </h1>
 
-            <p className="lg:text-4xl">
-              Email: <a href={`mailto:matthewchaplin60@gmail.com?subject=Inquiry_Message`}>matthewchaplin60@gmail.com</a>
+            <p className="lg:text-4xl ">
+              Email: <a     className="hover:underline hover:text-slate-700" href={`mailto:matthewchaplin60@gmail.com?subject=Inquiry_Message`}>matthewchaplin60@gmail.com</a>
               <br />
               <br />
               LinkedIn:{" "}
               <a
                 href="https://www.linkedin.com/in/matthew-chaplin-dev/"
-                className="hover:underline hover:text-blue-600"
+                className="hover:underline hover:text-slate-700"
               >
                 {" "}
                 https://www.linkedin.com/in/matthew-chaplin-dev/{" "}
               </a>
             </p>
             <div className="flex justify-center gap-10 p-5 ">
-              <a href="https://github.com/Chappo050" className="text-4xl md:text-6xl">
+              <a href="https://github.com/Chappo050" className="text-4xl md:text-6xl hover:text-slate-700">
                 {" "}
                 <BsGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/matthew-chaplin-dev/"
-                className="text-4xl md:text-6xl"
+                className="text-4xl md:text-6xl hover:text-slate-700"
               >
                 {" "}
                 <BsLinkedin />
