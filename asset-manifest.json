@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.2a95990a.css",
-    "main.js": "/static/js/main.568df1c7.js",
+    "main.css": "/static/css/main.657f10bf.css",
+    "main.js": "/static/js/main.9b8cf643.js",
     "static/media/Gunmetal.jpeg": "/static/media/Gunmetal.892699d35a875e0a2f49.jpeg",
     "index.html": "/index.html",
-    "main.2a95990a.css.map": "/static/css/main.2a95990a.css.map",
-    "main.568df1c7.js.map": "/static/js/main.568df1c7.js.map"
+    "main.657f10bf.css.map": "/static/css/main.657f10bf.css.map",
+    "main.9b8cf643.js.map": "/static/js/main.9b8cf643.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a95990a.css",
-    "static/js/main.568df1c7.js"
+    "static/css/main.657f10bf.css",
+    "static/js/main.9b8cf643.js"
   ]
 }
