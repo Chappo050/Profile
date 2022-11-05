@@ -76,7 +76,7 @@ const Profile = ({isJapanese}: any) => {
             <span className="text-sm"> {isJapanese ? language.japanese.drag : language.english.drag}</span>
           </div>
         </motion.div>
-        <div className="rounded-full  bg-slate-300 w-auto m-10 lg:w-1/2 h-auto p-12 text-base md:text-lg lg:text-xl">
+        <div className="rounded-full  bg-slate-300 w-auto lg:m-16 m-5 lg:w-1/2 h-auto p-14 text-base md:text-lg lg:text-xl">
         {isJapanese ? language.japanese.description : language.english.description}
         </div>
       </div>
