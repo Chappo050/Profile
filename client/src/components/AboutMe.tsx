@@ -44,7 +44,7 @@ const AboutMe = ({ isJapanese }: any) => {
     japanese: {
       title: "私について",
       whyProg: {
-        title: "プログラミングを勉強しているりゆうは",
+        title: "プログラミングを勉強している理由は",
         text: (
           <>
             {" "}
@@ -107,7 +107,7 @@ const AboutMe = ({ isJapanese }: any) => {
             </p>
           </div>
 
-          <div className="rounded-xl  bg-slate-500  lg:w-full h-auto p-5 m-5  text-base md:text-lg lg:text-xl">
+          <div className="rounded-xl  bg-slate-500  lg:w-full h-auto p-5 m-5 w-screen text-base md:text-lg lg:text-xl">
             <p className="text-2xl lg:text-3xl font-light mb-5 ">
               {" "}
               {isJapanese
