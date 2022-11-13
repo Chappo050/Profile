@@ -8,7 +8,6 @@ body {
   width: 100%;
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -16,4 +15,13 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+@layer components {
+  .skill-dark {
+    @apply rounded-2xl bg-slate-500 w-[90%];
+  }
+  .skill-light {
+    @apply rounded-2xl bg-slate-300 w-[90%];
+  }
 }

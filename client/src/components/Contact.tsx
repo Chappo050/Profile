@@ -2,7 +2,17 @@ import { motion } from "framer-motion";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 
-const Contact = () => {
+const Contact = ({ isJapanese }: any) => {
+  const language = {
+    english: {
+      title: "CONTACT",
+      text: "Feel free to contact me.",
+    },
+    japanese: {
+      title: "コンタクト",
+      text: "気楽に連絡してください。",
+    },
+  };
   return (
     <div>
       <motion.div
@@ -16,19 +26,25 @@ const Contact = () => {
           className="flex flex-col text-center pt-20 pb-40  justify-center items-center scroll-smooth lg:w-full lg:mt-52 lg:px-20  lg:pt-0 lg:border-2 lg:absolute lg:scale-[0.8] lg:bg-slate-400 lg:border-slate-900"
         >
           <p className="text-4xl lg:text-6xl font-light  mb-10 ">
-            CONTACT
+            {isJapanese ? language.japanese.title : language.english.title}
           </p>
 
           <div className="rounded-xl  bg-slate-300  lg:w-full h-auto p-5 m-5 ">
             <h1 className="text-2xl lg:text-4xl font-light mb-5 ">
-              Fell free to contact me.
+              {isJapanese ? language.japanese.text : language.english.text}
             </h1>
 
             <p className="lg:text-4xl ">
-              Email: <a     className="hover:underline hover:text-slate-700" href={`mailto:matthewchaplin60@gmail.com?subject=Inquiry_Message`}>matthewchaplin60@gmail.com</a>
+              Email:{" "}
+              <a
+                className="hover:underline hover:text-slate-700"
+                href={`mailto:matthewchaplin60@gmail.com?subject=Inquiry_Message`}
+              >
+                matthewchaplin60@gmail.com
+              </a>
               <br />
               <br />
-              LinkedIn:{" "}
+              LinkedIn:
               <a
                 href="https://www.linkedin.com/in/matthew-chaplin-dev/"
                 className="hover:underline hover:text-slate-700"
@@ -38,7 +54,10 @@ const Contact = () => {
               </a>
             </p>
             <div className="flex justify-center gap-10 p-5 ">
-              <a href="https://github.com/Chappo050" className="text-4xl md:text-6xl hover:text-slate-700">
+              <a
+                href="https://github.com/Chappo050"
+                className="text-4xl md:text-6xl hover:text-slate-700"
+              >
                 {" "}
                 <BsGithub />
               </a>

@@ -58,7 +58,7 @@ const App = () => {
   return (
     <div className="-z-10 ">
       <div className="lg:hidden block sticky top-0 ">
-        <Hamburger />   
+        <Hamburger isJapanese={isJapanese} />   
         <div
           id="home"
           className="flex flex-col text-center justify-center items-center scroll-smooth m-0 "
@@ -69,10 +69,10 @@ const App = () => {
           </div>
 
           <Profile isJapanese={isJapanese} />
-          <Projects />
-          <Education />
-          <AboutMe />
-          <Contact />
+          <Projects isJapanese={isJapanese}/>
+          <Education isJapanese={isJapanese}/>
+          <AboutMe isJapanese={isJapanese}/>
+          <Contact isJapanese={isJapanese}/>
           <div />
         </div>
       </div>
@@ -90,13 +90,13 @@ const App = () => {
 
         <div onClick={() => allClose(false)}>
           <AnimatePresence>
-            {!showProjects ? null : <Projects />}
+            {!showProjects ? null : <Projects isJapanese={isJapanese}  />}
 
-            {showEducation ? <Education /> : null}
+            {showEducation ? <Education isJapanese={isJapanese}  /> : null}
 
-            {showAbout ? <AboutMe /> : null}
+            {showAbout ? <AboutMe isJapanese={isJapanese}  /> : null}
 
-            {showContact ? <Contact /> : null}
+            {showContact ? <Contact isJapanese={isJapanese}  /> : null}
           </AnimatePresence>
         </div>
         <div

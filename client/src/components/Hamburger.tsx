@@ -3,8 +3,26 @@ import { FaHamburger } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 
-const Hamburger = () => {
+const Hamburger = ({isJapanese}: any) => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const language = {
+    english: {
+      top: "Top",
+      projects: "Projects",
+      education: "Education",
+      about: "About",
+      contact: "Contact",
+    },
+    japanese: {
+      top: "トップ",
+      projects: "プロジェクト",
+      education: "教育",
+      about: "私について",
+      contact: "コンタクト",
+    },
+  };
+
   return (
     <div className="sticky top-0 w-full  text-black md:py-2 scroll-smooth z-50 ">
       <button className="  text-3xl m-2" onClick={() => setIsOpen(true)}>
@@ -43,7 +61,7 @@ const Hamburger = () => {
             }}
             className="rounded-full md:py-1 md:mx-5"
           >
-            Home
+             {isJapanese ? language.japanese.top : language.english.top}
           </button>
           <button
             onClick={(e) => {
@@ -53,7 +71,7 @@ const Hamburger = () => {
             }}
             className=" rounded-full md:py-1 md:mx-5"
           >
-            Projects
+            {isJapanese ? language.japanese.projects : language.english.projects}
           </button>
           <button
             onClick={(e) => {
@@ -63,7 +81,7 @@ const Hamburger = () => {
             }}
             className=" rounded-full md:py-1 md:mx-5"
           >
-            Education
+             {isJapanese ? language.japanese.education : language.english.education}
           </button>
           <button
             onClick={(e) => {
@@ -73,7 +91,7 @@ const Hamburger = () => {
             }}
             className=" rounded-full md:py-1 md:mx-5"
           >
-            About
+            {isJapanese ? language.japanese.about : language.english.about}
           </button>
           <button
             onClick={(e) => {
@@ -83,7 +101,7 @@ const Hamburger = () => {
             }}
             className=" rounded-full md:py-1 md:mx-5"
           >
-            Contact
+            {isJapanese ? language.japanese.contact : language.english.contact}
           </button>
           <a href="https://github.com/Chappo050" className="text-4xl">
             {" "}
