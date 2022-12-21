@@ -61,11 +61,10 @@ const Projects = ({ isJapanese }: any) => {
         text: (
           <>
             The goal of this project is to become adept at using Apollo GraphQL
-            to request data and to display it in a simple to understand way.
+            by creating a CRUD app with authentication.
             <br />
-            <br />I also hope to integrate more complex animations and stying
-            using a combination of Tailwind, Framer and other useful libraries I
-            come across
+            <br />
+            This project is a fullstack TypeScript MERN application deployed on Heroku.
           </>
         ),
       },
@@ -122,10 +121,9 @@ const Projects = ({ isJapanese }: any) => {
         title: "世界データ (作成中)",
         text: (
           <>
-            このプロジェクトのゴールはApollo　GraphQLを上手になり、読みやすいフロントエンドを作成することです。
+            このプロジェクトのゴールはApollo GraphQLを上手になり、読みやすいフロントエンドを作成することです。
             <br />
-            <br />
-            さらにTailwindとFramer等では複雑なアニメーションを入れたいです。
+            このプロジェクトの全体がTypescriptでかいてあるMERNアプリです。
           </>
         ),
       },
@@ -160,10 +158,10 @@ const Projects = ({ isJapanese }: any) => {
 
               <p className="">
                 <a
-                  href="https://github.com/Chappo050/World_Data"
+                  href="https://glacial-tor-64648.herokuapp.com/"
                   className="text-white bg-slate-700 hover:bg-slate-800 focus:ring-4 focus:ring-slate-400 font-medium rounded-lg  px-5 py-2.5 mr-2 mb-2 focus:outline-none"
                 >
-                  Website (Not Live)
+                  Website
                 </a>
                 <a
                   href="https://github.com/Chappo050/World_Data"
