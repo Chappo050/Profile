@@ -1,16 +1,10 @@
 import myPic from "../Images/me.jpeg";
-import { motion, useDragControls } from "framer-motion";
-import { useState } from "react";
 
 const Profile = ({isJapanese}: any) => {
-  const dragControls = useDragControls();
-
-
   const language = {
     english: {
       name: "MATTHEW CHAPLIN",
       header: "HOBBY FULLSTACK DEVELOPER SEEKING EMPLOYMENT",
-      drag: "drag me ► X",
       description: (
         <>
           I am a self taugh full stack web developer.
@@ -29,7 +23,6 @@ const Profile = ({isJapanese}: any) => {
     japanese: {
       name: "チャプリン マシュー",
       header: "就活フルスタックエンジニア",
-      drag: "引き出して ► X",
       description: (
         <>
           私は一人でフルスタックエンジニアを勉強しています。
@@ -46,9 +39,7 @@ const Profile = ({isJapanese}: any) => {
   };
 
 
-  function startDrag(event: any) {
-    dragControls.start(event, { snapToCursor: true });
-  }
+  
   return (
     <div className="flex flex-col text-center justify-center items-center scroll-smooth pt-10 lg:-z-10  ">
       
@@ -61,21 +52,14 @@ const Profile = ({isJapanese}: any) => {
       </div>
 
       <div className="grid grid-cols-1 lg:flex items-center justify-center lg:gap-20  ">
-        <motion.div
-          drag
-          dragTransition={{ bounceStiffness: 600, bounceDamping: 5 }}
-          dragConstraints={{ left: 10, right: 10, top: 10, bottom: 10 }}
-        >
+       
           <div className="">
             <img
               alt="Matthew Chaplin"
               src={myPic}
               className="w-48 h-48 rounded-full mx-auto"
             />
-
-            <span className="text-sm"> {isJapanese ? language.japanese.drag : language.english.drag}</span>
           </div>
-        </motion.div>
         <div className="rounded-full  bg-slate-300 w-auto lg:m-16 m-5 lg:w-1/2 h-auto p-14 text-base md:text-lg lg:text-xl">
         {isJapanese ? language.japanese.description : language.english.description}
         </div>
